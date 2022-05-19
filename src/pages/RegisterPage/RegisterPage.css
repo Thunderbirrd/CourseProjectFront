@@ -1,0 +1,26 @@
+.registerForm {
+    width: max-content;
+    padding: 20px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.loginForm h2 {
+    margin: 0 0 10px;
+}
+
+.registerFormInput {
+    width: 100%;
+    padding: 4px 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(138, 136, 136)
+}
+
+.registerFormInput:focus::placeholder {
+    color: transparent;
+}
+
+.registerForm button {
+    width: 100%;
+}
