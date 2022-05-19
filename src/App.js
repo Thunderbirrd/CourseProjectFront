@@ -81,7 +81,7 @@ function App() {
     setWindowWidth(window.innerWidth);
   }
 
-  function showMoreJobs() {
+  function showMoreUsers() {
     setUsersVisible((prevState) => prevState + 3);
   }
 
@@ -117,7 +117,7 @@ function App() {
               setIsLoading={setIsLoading}
               currentUser={currentUser}
               setCurrentUser={setCurrentUser}
-              showMoreJobs={showMoreJobs}
+              showMoreJobs={showMoreUsers}
               usersVisible={usersVisible}
             />
           </Route>
