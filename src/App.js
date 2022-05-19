@@ -15,7 +15,7 @@ const apiUrl = "https://go-course-work.herokuapp.com/"
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
-      localStorage.getItem('token') !== undefined
+      localStorage.getItem('token') !== null && localStorage.getItem('token') !== undefined
   );
   const path = isLoggedIn ? '/edit' : '/login'
   const [darkTheme, setDarkTheme] = useState(
